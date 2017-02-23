@@ -1,10 +1,9 @@
+#GraphQL + Apollo
 
-###Feb, 22nd 2017
-####[React Utah](1)
-
+_Feb, 22nd 2017_<br />
+_[React Utah](1)_<br />
 _MX Headquarters, Lehi, UT_
 ***
-#GraphQL + Apollo
 
 Run the Apollo Client [`create-react-app`](2) example app from [`~/demo_client`](3), and run the Apollo Server using [`express`](4) from [`~/demo_server`](5).
 
