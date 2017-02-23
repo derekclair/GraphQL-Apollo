@@ -1,0 +1,19 @@
+
+# query
+
+{
+  "searchText": "al"
+}
+
+
+
+# mutation myMutation
+# query getReviews
+
+{
+  "episode": "JEDI",
+  "review": {
+    "stars": 4,
+    "commentary": "Second greatest film of all time!"
+  }
+}

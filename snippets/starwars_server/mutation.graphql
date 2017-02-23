@@ -1,0 +1,19 @@
+{
+  reviews(episode: JEDI) {
+    stars
+    commentary
+  }
+}
+
+mutation myMutation($episode: Episode, $review: ReviewInput!) {
+  createReview(episode: $episode, review: $review) {
+    stars
+    commentary
+  }
+}
+query getReviews($episode: Episode!) {
+  reviews(episode: $episode) {
+    stars
+    commentary
+  }
+}

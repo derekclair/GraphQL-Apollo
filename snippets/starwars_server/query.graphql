@@ -1,0 +1,82 @@
+
+
+query myQuery($searchText: String!){
+  search(text: $searchText) {
+    ...on Human {
+      id
+      name
+      homePlanet
+      height
+      mass
+      appearsIn
+      starships
+    }
+    ...on Droid {
+      id
+      name
+      appearsIn
+      primaryFunction
+    }
+    ...on Starship {
+      id
+      name
+      length
+    }
+  }
+}
+
+# FULL QUERY USING FRAGMENTS
+
+fragment myFragment on Character {
+  id
+  name
+  friends {
+    id
+    name
+  }
+  friendsConnection(first:10) {
+    totalCount
+    edges {
+      cursor
+      node {
+        id
+      }
+    }
+    friends {
+      id
+      name
+    }
+    pageInfo {
+      startCursor
+      endCursor
+      hasNextPage
+    }
+  }
+}
+
+query myQuery($searchText: String!){
+  search(text: $searchText) {
+    ...on Human {
+      homePlanet
+      height
+      mass
+      appearsIn
+      starships {
+        name
+      }
+      ...myFragment
+    }
+    ...on Droid {
+      id
+      name
+      appearsIn
+      primaryFunction
+      ...myFragment
+    }
+    ...on Starship {
+      id
+      name
+      length
+    }
+  }
+}
