@@ -1,9 +1,9 @@
 #GraphQL + Apollo
 
 ***
-*[Meetup: React Utah](1)*
+[Meetup: React Utah](1)
 *Feb, 22nd 2017*
-*MX Headquarters, Lehi, UT*
+_MX Headquarters, Lehi, UT_
 ***
 
 > Thanks again to MX and the creaw for hosting us. 
