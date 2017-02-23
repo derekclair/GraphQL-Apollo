@@ -12,7 +12,7 @@ Reference the Apollo Docs at [dev.apollodata.com](1) and the GraphQL docs at [gr
 
 There is a [handy cheatsheets here](./resources/graphql-shorthand-notation-cheat-sheet.pdf), and the [presentation slides as a PDF here](./resources/keynote.pdf).
 
-Join the [Meetup](https://www.meetup.com/ReactJS-Utah/)
+Join the [Meetup](https://www.meetup.com/ReactJS-Utah/)!
 
 [1]: http://dev.apollodata.com/
 [2]: http://graphql.org/learn/
