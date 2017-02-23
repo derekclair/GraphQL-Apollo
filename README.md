@@ -3,15 +3,14 @@
 _Feb, 22nd 2017_<br />
 _[React Utah](1)_<br />
 _MX Headquarters, Lehi, UT_
-***
+
+> Thanks again to MX and the creaw for hosting us. 
 
 Run the Apollo Client [`create-react-app`](2) example app from [`~/demo_client`](3), and run the Apollo Server using [`express`](4) from [`~/demo_server`](5).
 
 Reference the Apollo Docs at [dev.apollodata.com](6) and the GraphQL docs at [graphql.org](7).
 
 There is a [handy cheatsheets here](8), and the [presentation slides as a PDF here](9).
-
-> Thanks again to MX and the creaw for hosting us. 
 
 Join the [Meetup](https://www.meetup.com/ReactJS-Utah/)
 
